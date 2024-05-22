@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  
+  body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat',sans-serif;
+    background-image: linear-gradient(rgba(23, 36, 87, 0.7),rgba(8, 21, 72, 0.7)),url(images/admin2.png);
+    color:#d0ceed;
+    background-attachment: fixed;
+  }
+
+  .head{
+    height: 300px;
+    background-attachment:fixed;
+  }
+  
+  .head h1{
+  margin: 75px 40px;
+  color: rgba(200, 237, 254, 0.673);
+  font-size: 80px;
+  }
+
+  
+  .but{
+
+    margin: 100px 100px;
+    padding: 12px 12px;
+    box-shadow: 0 0 10px rgba(229, 214, 214, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    font-size: 40px;
+    width: 60%;
+    background-color: rgba(214, 223, 229, 0.273);
+  }
+
+ .but a{
+    color: rgba(45, 44, 61, 0.971);
+    font-weight: bolder;
+    
+ }
+
+ .but :hover{
+    color: #1ac4f3;
+     
+   }
+
+   .row{
+   display: grid;
+   align-items: center;
+   }
+   .row h2{
+    font-size: 50px;
+   }
+   .r1{
+    background-color: rgba(196, 240, 255, 0.434);
+   }
+   .r2{
+    background-color: rgba(196, 240, 255, 0.151);
+   }
+
+
+   
+  .del_edi{
+    text-align: center;
+    margin: 100px 100px;
+    box-shadow: 0 1rem 2rem rgba(78, 43, 43, 0.499);
+
+  }
+  .del_edi input[type="email"]{
+
+    border: 2px solid rgb(18, 133, 215);
+    border-radius: 8px;
+    background-color: #8597b9;
+    font: 1em sans-serif;
+
+  }
+
+  form{
+    box-shadow: 0 1rem 2rem rgba(78, 43, 43, 0.499);
+    display: grid;
+    font-size: 22px;
+  }
+
+
+
+
+  .head input[type="text"]{
+  height: 30px;
+  border-radius: 8px;
+  border: 2px solid rgb(18, 133, 215);
+  font: 1em sans-serif;
+  background-color: #8597b963;
+  padding: 3px 3px;
+}

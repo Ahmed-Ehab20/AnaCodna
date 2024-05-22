@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #fff;
+    /* Only works if there is nothing absolutely positioned in relation to body */
+    overflow-x: hidden;
+  }
+  footer a , footer li {
+    text-decoration: none;
+    list-style: none;
+    color: lightgrey;
+  }
+  /* .footer-bg {
+    background-color: #0e153a84;
+  } */
+  /**************************/
+  /* GENRAL REUSABLE COMPONENTS */
+  /**************************/
+  
+  .quizeContainer {
+    /* 1140px */
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+  }
+  
+  .quize-box{
+    max-width: 700px;
+    margin: 5% auto;
+    margin-top: 15%;
+    background-image: url(images/comment.jpg);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  .quize-header{
+    text-align: center;
+    font-size: 600;
+    margin-bottom: 18px;
+    font-size: 2.6rem;
+
+
+  }
+.quize-subtitle{
+  font-size: 1.2rem;
+  color: #777;
+  margin-bottom: 9px;
+  line-height: 1.2;
+  font-weight: 400;
+  
+}
+.quize-titleheader{
+  line-height: 1.5;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 1.6;
+
+}
+.form-group ol li{
+
+margin-bottom: 9px;
+font-size: 1.2rem;
+font-weight: 400;
+}
+.form-group ol li[input]{
+
+  padding-left: 12px;
+}

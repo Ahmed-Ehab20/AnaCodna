@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root{
+    --transition:all 400ms ease ;
+    --container-width-lg:76%;
+    --container-width-md:90%;
+    --container-width-sm:94%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat',sans-serif;
+    line-height: 1.7;
+    color:#0e0d18;
+    background: url(images/bglogin.jpg) no-repeat;
+    background: radial-gradient(#accbee , #e7f0fd);
+    background-attachment: scroll;
+
+}
+
+/**********comment********/
+
+.comment-box {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    background: url(images/bglogin.jpg) no-repeat;
+    background: radial-gradient(#f8f9fa , #eceef2);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .comment-box h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .comment-box form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .comment-box .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .comment-box label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #555;
+  }
+  
+  .comment-box input[type="text"],
+  .comment-box input[type="email"],
+  .comment-box textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .comment-box textarea {
+    height: 150px;
+  }
+  
+  .comment-box input[type="submit"] {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .comment-box input[type="submit"]:hover {
+    background-color: #0066cc;
+  }
+
+
+
+  /**********************/
+
+  .del_edi{
+    text-align: center;
+    margin: 100px 100px;
+    box-shadow: 0 1rem 2rem rgba(78, 43, 43, 0.499);
+
+  }
+  .del_edi input[type="text"]{
+
+    border: 2px solid rgb(18, 133, 215);
+    border-radius: 8px;
+    background-color: #8597b9;
+    font: 1em sans-serif;
+
+  }
+
+  .del_form{
+    box-shadow: 0 1rem 2rem rgba(78, 43, 43, 0.499);
+    display: grid;
+    font-size: 22px;
+  }
+
+  .btn{
+    display: inline-block;
+    background: white;
+    color:black;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .btn:hover{
+    background: transparent;
+    color: rgb(58, 3, 3);
+    border-color: white;
+  }
+  
+  .btn-primary{
+    background: white;
+    color: black;
+  }
+
